@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geocache van Jaspeur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Geocache van Jasper</h1>
+    </header>
+
+    <main>
+        <div id="terminal"></div>
+        <div id="input-container">
+            <input type="text" id="input" placeholder="Typ een commando..." onkeydown="handleKeyPress(event)">
+            <button id="submit" onclick="processCommand()">Verzenden</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
